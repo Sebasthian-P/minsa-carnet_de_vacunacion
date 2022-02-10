@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans-Regular', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.bgs {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bgs img {
+    position: absolute;
+}
+
+.bgs :nth-child(2) {
+    position: absolute;
+    bottom: 0px;
+}
+
+.bgs :nth-child(3) {
+    right: 0px;
+    bottom: 0px;
+}
+
+.box__minsa {
+    width: 100%;
+    height: 47.359px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.box__minsa img {
+    height: 100%;
+}
+
+
+.box__hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 28px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+
+.box__hero .carnet {
+    height: 74px;
+}
+
+.box__hero .checked {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.box__hero h3,
+.box__hero h4,
+.box__hero p {
+    font-size: 19px;
+    color: #1f484a;
+}
+
+.box__hero h3,
+.box__hero h4 {
+    font-weight: 500;
+}
+
+.box__hero h4 {
+    margin: 10px;
+}
+
+.box__hero p {
+    color: #3e8d5e;
+    font-weight: bold;
+    margin-bottom: 65px;
+}
+
+.box__hero span {
+    text-transform: none;
+    margin-bottom: 32px;
+}
+
+
+.derechos {
+    width: 100%;
+    text-align: center;
+    padding: 17px;
+    border-top: 1px dashed #dedede;
+}
+
+.derechos h2 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #6c6c6c;
+    text-transform: none;
+}
